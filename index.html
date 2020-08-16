@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="A new innovative way to learn and bee schooled from home with your device">
+  <meta name="keywords" content="LiveStars, Stars, Classes, School">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Dashboard || Livestars</title>
+  <!--Google fonts-->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <!--Line Awesome-->
+  <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+  <!--BOOTSTRAP-->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <!--CUSTOM CSS-->
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/dashboard.css">
+</head>
+<body>
+  <div class="wrapper">
+    <!--SIDEBAR-->
+    <aside class="sidebar shut fixed-top">
+      <!--close button-->
+      <i class="la la-close  text-white la-2x ml-5 d-none" id="js-close"></i>
+      <!--Logo-->
+      <a href="#" class="pt-4 text-center d-block navbar-brand mb-3 pb-5"><img src="assets/img/Rectangle 65.svg" alt="" class="img-fluid d-inline-block"></a>
+      <!--Dashboard navbar-->         
+      <ul class="nav mt-5 d-block mb-5">
+        <li class="nav-item py-2 mb-3 d-flex align-items-center">
+          <i class="la la-home la-2x ml-5 "></i>
+          <a href="" class="nav-link ml-1">Home</a>
+        </li>
+        <li class="nav-item py-2 mb-3 d-flex align-items-center">
+          <i class="la la-2x la-user ml-5"></i>
+          <a href="" class="nav-link ml-1">Account</a>
+        </li>
+        <li class="nav-item py-2 mb-3 active d-flex align-items-center">
+          <i class="la la-tachometer-alt la-2x ml-5 text-white"></i>
+          <a href="" class="nav-link ml-1">Dashboard</a>
+        </li>
+        <li class="nav-item py-2 mb-3 d-flex align-items-center">
+          <i class="la la-2x la-book ml-5"></i>
+          <a href="subject.html" class="nav-link ml-1">Subjects</a>
+        </li>
+        <li class="nav-item py-2 mb-3 d-flex align-items-center">
+          <i class="la la-bullhorn la-2x ml-5 "></i>
+          <a href="" class="nav-link ml-1">Announcements</a>
+        </li>
+        <li class="nav-item py-2 mb-3 d-flex align-items-center">
+          <i class="la la-calendar la-2x ml-5"></i>
+          <a href="" class="nav-link ml-1">Calendar</a>
+        </li>
+        <li class="nav-item py-2 mb-3 d-flex align-items-center">
+          <i class="la la-credit-card la-2x ml-5"></i>
+          <a href="" class="nav-link ml-1">Payments</a>
+        </li>
+        <li class="nav-item py-2 mb-3 d-flex align-items-center">
+          <i class="la la-gear la-2x ml-5"></i>
+          <a href="" class="nav-link ml-1">Settings</a>
+        </li>
+        <li class="nav-item py-2 mb-3 d-flex align-items-center">
+          <i class="la la-question-circle la-2x ml-5"></i>
+          <a href="" class="nav-link ml-1">Help</a>
+        </li>
+        <li class="nav-item py-2 mb-3 d-flex align-items-center">
+          <i class="la la-sign-out-alt la-2x ml-5"></i>
+          <a href="" class="nav-link ml-1">Logout</a>
+        </li>
+      </ul>
+    </aside>
+    <!--SIDEBAR ENDS HERE-->
+
+    <!--This is where the main content goes-->
+    <main class="main-content px-3">
+      <!--Mobile Nav-->
+      <nav class="navbar d-flex d-lg-none pt-4">
+        <div class="burger-menu open text-primary" id="js-open">
+          <div class="line-1"></div>
+          <div class="line-2"></div>
+          <div class="line-3"></div>
+        </div>
+        <h2 class="h4">Dashboard</h2>
+      </nav>
+
+      <!--Main dashboard page-->
+      <div class="dashboard py-5">
+        <div class="container-fluid">
+
+          <!--First section-->
+          <section class="row mb-4">
+            <!--Student profile-->
+            <div class="col-md-7">
+              <div class="card px-4 pt-5 pb-3 mb-4">
+                <h5 class="text-center mb-3">Profile</h5>
+                <img src="assets/img/Ellipse 11.svg" alt="" class="img-fluid mt-2">
+                <div class="text-center mt-4">
+                  <p class="lead">Daniel Benjamin</p>
+                  <p>DF. 145 89 00</p>
+                  <p>J.S.S 3 Student</p>
+                </div>
+                </div>
+              </div>
+            <!--Average Assesment-->
+            <div class="col-md-5">
+              <div class="card px-4 pt-5 pb-3 mb-4">
+                <h5>Average assessment</h5>
+                <div class="progress mt-3 mb-3">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="88"
+                  aria-valuemin="0" aria-valuemax="100" style="width:88%">
+                  88%
+                  </div>
+                </div>
+                <h6 class="text-primary">Awesome Result</h6>
+                <p>Your assessments are more than 70% grades of other pupils</p>
+              </div>
+              <!--Schedule-->
+              <div class="card px-4 pt-5 pb-3 mb-4">
+                <h5>Today's Subject</h5>
+                <div class="d-flex justify-content-between mt-3">
+                  <p>English</p>
+                  <p class="ml-5">9:00am</p>
+                </div>
+                <div class="d-flex justify-content-between">
+                  <p>Mathematics</p>
+                  <p class="ml-5">11:00am</p>
+                </div>
+                <div class="d-flex justify-content-between">
+                  <p>Computer</p>
+                  <p class="ml-5">13:00pm</p>
+                </div>
+              </div>
+            </div>
+          </section>
+
+
+          <!--Second section-->
+          <section class="row mb-4">
+            <!--Notice board-->
+            <div class="col-md-5">
+              <div class="card px-4 pt-5 pb-3 mb-4">
+                <h5>Notice Board</h5>
+                <div class="mt-3">
+                  <p class="text-primary mb-0">Updated Syllabus</p>
+                  <p>A new syllabus has been intro...</p>
+                </div>
+                <div class="mt-3">
+                  <p class="text-primary mb-0">Updated Syllabus</p>
+                  <p>A new syllabus has been intro...</p>
+                </div>
+              </div>
+            </div>
+            <!--Group activities-->
+            <div class="col-md-7">
+              <div class="card px-4 pt-5 pb-3 mb-4">
+                <h5 class="mb-3">Group Activities</h5>
+                <p>Confused in any topic or subject? Join a group to participate in the practical activities</p>
+                <p class="text-primary">Join Group</p>
+              </div>
+            </div>
+          </section>
+
+          <!--Third section-->
+          <section class="row mb-4">
+            <!--Payment history-->
+            <div class="col-md-5">
+              <div class="card mb-4 px-4 pt-5 pb-3">
+                <h5>Payment History</h5>
+                <div class="d-flex justify-content-between mt-3">
+                  <div>
+                    <p class="text-primary mb-0">Daniel Benjamin</p> 
+                    <p class="mb-0">Tuition I.D.: DF.145.89.00</p>
+                    <p>Mar 6, 2020</p>
+                  </div>
+                  <p>2019/2020</p>
+                </div>
+                <div class="d-flex justify-content-between mt-3">
+                  <div>
+                    <p class="text-primary mb-0">Daniel Benjamin</p> 
+                    <p class="mb-0">Tuition I.D.: DF.145.89.00</p>
+                    <p>Mar 6, 2020</p>
+                  </div>
+                  <p>2018/2019</p>
+                </div>
+                <div class="d-flex justify-content-between mt-3">
+                  <div>
+                    <p class="text-primary mb-0">Daniel Benjamin</p> 
+                    <p class="mb-0">Tuition I.D.: DF.145.89.00</p>
+                    <p>Mar 6, 2020</p>
+                  </div>
+                  <p>2017/2018</p>
+                </div>
+              </div>
+            </div>
+            <!--Attendance-->
+            <div class="col-md-7">
+              <div class="card px-4 mb-4 py-5">
+                <h5 class="mb-4">Attendance</h5>
+                <canvas id="myChart" width="400" height="400"></canvas>
+              </div>
+            </div>
+          </section>
+
+        </div>
+      </div>
+    </main>
+    <!--MAIN CONTENT ENDS HERE-->
+
+    <!--Overlay for sidebar-->
+    <div class="overlay fixed-top" id="js-overlay"></div>
+  </div>
+
+
+
+  <!--Jquery Bootstrap & Popper-->
+  <script src="assets/js/jquery-3.5.1.min.js"></script>
+  <script src="assets/js/popper.min.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+  <!--Chart JS-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
+  <!--Custom JS-->
+  <script src="assets/js/custom.js"></script>
+  <script src="assets/js/dashboard.js"></script>
+</body>
+</html>

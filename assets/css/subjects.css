@@ -1,0 +1,21 @@
+/*Progress bar modification for subject page*/
+.progress--subject {
+  height: 0.5rem;
+  background-color: var(--bg-color);
+}
+/*Table customization*/
+table .progress-head {
+  vertical-align: middle;
+}
+.table thead th {
+  border-bottom: none;
+}
+.table th {
+  border-top: none;
+}
+thead th {
+  font-weight: 700;
+}
+tbody th {
+  font-weight: 400;
+}

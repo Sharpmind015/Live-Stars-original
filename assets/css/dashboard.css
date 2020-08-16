@@ -1,0 +1,6 @@
+/*Card customization*/
+.card {
+  background-color: var(--bg-color);
+  border-radius: 0;
+  border: none;
+}
